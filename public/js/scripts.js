@@ -12,6 +12,10 @@ const cardList = [
         desciption: "Demo desciption about kitten 3"
     }
 ]
+$(document).ready(function(){
+      
+    $('#demo-carousel').carousel({fullWidth: true});
+  });
 const clickMe = () => {
     alert("Thanks for clicking me. Hope you have a nice day!")
 }
